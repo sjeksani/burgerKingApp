@@ -1,0 +1,101 @@
+{
+    "list":
+    {
+
+        "featuredItems": [
+        {
+            "name": "Drinks",
+            "price": "7.99$",
+            "imageurl": "http://www.albaik.com/media/thumbnail/meal-spotlight-image/be797d1fba47fbf010ac1c9b8f114557/20150203_Soft-Drinks.png",
+            "id": 1,
+            "included":[
+                {
+                    "img_src":"http://www.pngmart.com/files/3/Pepsi-PNG-Photos.png",
+                    "item":"Pepsi",
+                    "attrs":["As is","$9.99","Remove"]
+                },
+                {
+                    "img_src":"http://www.aljomaihbev.com/content/uploads/Product/140907053353359~7up.png",
+                    "item":"7 up",
+                   "attrs":["As is","$9.99","Remove"]
+                },
+                {
+                    "img_src":"http://www.rocketgrocery.com/wp-content/uploads/2015/07/Mirinda-Soft-Drink-Orange-Flavour-250-ml-Can.png",
+                    "item":"Mirinda",
+                    "attrs":["As is","$9.99","Remove"]
+                }
+            ]
+        },
+        {
+            "name": "Fruit Juice",
+            "price": "5.99$",
+            "imageurl": "http://blueplatecaterers.com/menuimages/drinks.png",
+            "id": 2,
+            "included":[
+                {
+                    "img_src":"http://pngimg.com/uploads/orange/orange_PNG805.png",
+                    "item":"Orange",
+                    "attrs":["As is","$9.99","Remove"]
+                },
+                {
+                    "img_src":"http://www.freepngimg.com/download/mango/5-2-mango-png-picture.png",
+                    "item":"Mango",
+                   "attrs":["As is","$9.99","Remove"]
+                },
+                {
+                    "img_src":"http://pngimg.com/uploads/kiwi/kiwi_PNG4034.png",
+                    "item":"Kiwi",
+                    "attrs":["As is","$9.99","Remove"]
+                }
+            ]
+        }],
+
+        "burgers1": [
+        {
+            "name": "chickenBurger",
+            "price": "7.99$",
+            "imageurl": "http://www.bibom.com/wp-content/uploads/2016/07/original-crispy-burger.png",
+            "id": 1,
+             "included":[
+                {
+                    "img_src":"http://www.pngmart.com/files/3/Pepsi-PNG-Photos.png",
+                    "item":"Pepsi",
+                    "attrs":["As is","$9.99","Remove"]
+                },
+                {
+                    "img_src":"http://www.aljomaihbev.com/content/uploads/Product/140907053353359~7up.png",
+                    "item":"7 up",
+                   "attrs":["As is","$9.99","Remove"]
+                },
+                {
+                    "img_src":"http://www.rocketgrocery.com/wp-content/uploads/2015/07/Mirinda-Soft-Drink-Orange-Flavour-250-ml-Can.png",
+                    "item":"Mirinda",
+                    "attrs":["As is","$9.99","Remove"]
+                }
+            ]
+        },
+        {
+            "name": "beefBurger",
+            "price": "5.99$",
+            "imageurl": "http://www.freepngimg.com/download/burger/2-2-burger-free-download-png.png",
+            "id": 2,
+             "included":[
+                {
+                    "img_src":"http://www.pngmart.com/files/3/Pepsi-PNG-Photos.png",
+                    "item":"Pepsi",
+                    "attrs":["As is","$9.99","Remove"]
+                },
+                {
+                    "img_src":"http://www.aljomaihbev.com/content/uploads/Product/140907053353359~7up.png",
+                    "item":"7 up",
+                   "attrs":["As is","$9.99","Remove"]
+                },
+                {
+                    "img_src":"http://www.rocketgrocery.com/wp-content/uploads/2015/07/Mirinda-Soft-Drink-Orange-Flavour-250-ml-Can.png",
+                    "item":"Mirinda",
+                    "attrs":["As is","$9.99","Remove"]
+                }
+            ]
+        }]
+    }
+}

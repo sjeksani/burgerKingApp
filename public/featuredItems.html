@@ -1,0 +1,8 @@
+<div class="ItemsContainer" ng-controller="itemsCtrl as Items" >
+    <div ng-repeat="list in Items.returnedResult" class="repeater">
+    	<img src="{{list.imageurl}}" class="FImage" alt="image Not Available"></img>
+    	<h1>{{list.name}}</h1>
+    	<button class="startButton" ng-click="addToCart(list.id)">Add to Bag+</button>
+    </div>
+</div>
+<dir><ui-view></ui-view></dir>

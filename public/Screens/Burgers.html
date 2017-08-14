@@ -1,0 +1,27 @@
+<!-- <div class="container" style="width: 100%; display: inline-block;">
+    <div class="sidebar" style="width: 100px; float: left;">
+        <ul id="menu3">
+            <li id="menu4"><a ui-sref="menu.Burger"></a></li>
+            <li id="menu4"><a ui-sref="menu.Burger"></a></li>
+        </ul>
+    </div>
+    
+    <div  ng-controller = "homeController as mainCtrl " ng-repeat="n in returnedResultc.mainCtrl">
+
+       <h4 >{{n.name}}</h4>   	
+   </div>  
+   </div>
+    <div class="content" style="margin-left: 102px;">
+        <ui-view></ui-view>
+    </div>
+</div> -->
+<!-- <h1>Hi</h1> -->
+
+<div class="ItemsContainer" ng-controller="brgrCtrl as brgr" >
+    <div ng-repeat="list in brgr.returnedResult" class="repeater">
+      <img src="{{list.imageurl}}" class="FImage" alt="image Not Available"></img>
+      <h1>{{list.name}}</h1>
+      <button class="startButton" ng-click="addToCart(list.id)">Add to Bag+</button>
+    </div>
+</div>
+<dir><ui-view></ui-view></dir>

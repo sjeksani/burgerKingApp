@@ -1,0 +1,25 @@
+
+<div class="row" ng-controller="custombrgrCtrl">
+	<div class="col-lg-8" style="padding-left: 0px">
+		<div style="    background: #575757;
+    display: flow-root;
+    color: #fff;">
+			<span class="pull-left" style="padding: 20px 20px 20px 20px;">Cuztumize this item</span>
+			<span class="pull-right" style="padding: 20px 20px 20px 20px;">Price here:{{}} </span>
+		</div>
+		<div>
+			<img ng-src="{{detailedItem.imageurl}}">
+		</div>
+		<div>
+			<div ng-repeat="details in detailedItem.included" style="display: inline-block;">
+			<img ng-src="{{details.img_src}}" style="width: 100px;height:100px"><br>
+				<span>
+					{{details.item}}
+				</span><br>
+				<select>
+					<option ng-repeat="attr in details.attrs">{{attr}}</option>
+				</select>
+			</div>
+		</div>
+	</div>
+</div>
