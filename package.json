@@ -2,7 +2,7 @@
     "name": "angular-ui-router",
     "version": "1.0.0",
     "description": "Burgerking application",
-    "main": "index.js",
+    "main": "index.html",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
