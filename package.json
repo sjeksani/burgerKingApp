@@ -1,6 +1,6 @@
 {
     "name": "angular-ui-router",
-    "version": "1.0.0",
+    "version": "1.1.2",
     "description": "Burgerking application",
     "main": "index.html",
     "scripts": {
